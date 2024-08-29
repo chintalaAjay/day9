@@ -1,0 +1,31 @@
+*{
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.name{
+  
+    font-size: 1 rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(10px 10px 10px yellow);
+    color: yellow;
+}
+.banner{
+    background-image: url(https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWcOJREo-h7_Dhe4stjffDUhbO4mzslQd5rtQvcTY-1LX9IgPqZGx5ghK99vgMumhvGS68J-9gs5SDubEYqnij4eQA3VOQf1wGi4.jpg?r=ea7);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+
+
+}
+.posters{
+    display: flex;
+    overflow: auto;
+    
+}

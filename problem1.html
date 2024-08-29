@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box in a Box</title>
+    <style>
+        .outer-outer-box{
+            background-color: rgb(255, 0, 81);
+            height: 500px;
+            width: 500px;
+            padding: 20px;
+           padding-left: 200px;
+
+        }
+        .outer-box {
+            background-color: blue;
+            height: 300px;
+            width: 300px;
+            padding: 20px;
+        }
+        .inner-box {
+            background-color: green;
+            margin-left: 200px;
+           padding-left: 10px;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-outer-box">outer-outer-box
+    <div class="outer-box">outerbox
+        <div class="inner-box">innerbox</div>
+    </div>
+</div>
+</body>
+</html>
